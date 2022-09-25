@@ -1,6 +1,5 @@
 import { useState } from "react";
-import AddCategory from "./components/AddCategory.jsx";
-import GifGrid from "./components/GifGrid.jsx";
+import { AddCategory, GifGrid } from "./components";
 
 function GifExpertApp() {
   const [categories, setCategories] = useState([""]);
